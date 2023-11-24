@@ -1,3 +1,5 @@
+/*  LOS ESTILOS DE styles.css SE APLICAN DE MANERA GLOBAL EN TODAS LAS PAGES    */
+
 :root {
     --primary-color: #ff9933;
     --secondary-color: #3398ff;
@@ -11,6 +13,7 @@
     --sub-title: 1.5rem;
     --paragraf-size: 1rem;
 }
+
 
 /* Ejemplos de cómo utilizar las clases globales 
 
@@ -26,3 +29,12 @@ h1 {
 } 
 
 / */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #222;
+}
