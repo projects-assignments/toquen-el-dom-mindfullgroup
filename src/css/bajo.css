@@ -1,0 +1,129 @@
+
+/* el fratboard es la caja o contenedor de las cuerdas. seria el mastil del bajo */
+
+.fretboard{
+    display: flex;
+    flex-direction: column;
+    background-color: #be975b;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    margin-top: 200px;
+    box-shadow: 0px 3px 5px #878787;
+}
+
+.string{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+/* :before seria un pseudoelemento hijo del div string (contenedor de la cuerda). y lo que hace es pintar la cuerda dentro de su contenedor */
+
+.SOL:before{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(#eee, #727272);
+    box-shadow: 0px 3px 10px #806233;
+    z-index: 1;
+    position: absolute;
+    top:22px;
+}
+
+.RE:before{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(#eee, #727272);
+    box-shadow: 0px 3px 10px #806233;
+    z-index: 1;
+    position: absolute;
+    top:22px;
+}
+
+/* dando estilos a cada contenedor de notas. 22 contenedores a lo largo de cada cuerda. lineas verticales*/
+
+.note-fret{
+    display: flex;
+    flex: 1;
+    border-right: 10px solid;
+    border-image: linear-gradient(to left, #777, #bbb, #777) 1 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* el first child seria el primer fret de todas las cuerdas(strings) entre el mastil y la pala de clavijas*/
+
+.note-fret:first-child{
+    background: #3f2817;
+    min-width: 70px;
+    border-right: 12px solid;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-image: linear-gradient(to left, #bbb, #fff, #bbb) 1 100%;
+}
+
+/* :after y ::before serian pseudoelementos hijos de cada div note (contenedor de las notas). y lo que hace es pintar el marcador de nota dentro de su contenedor.*/
+
+.fretMark:after{
+    content: "";
+    position: absolute;
+    height: 25%;
+    width: 40%;
+    border-radius: 50%;
+    background-image: radial-gradient(#727272, #515151,#515151);
+    top: 100px;
+    transform: translate(0, -50%)
+} 
+
+.double-fretMark:before{
+    content: "";
+    position: absolute;
+    height: 25%;
+    width: 40%;
+    border-radius: 50%;
+    background-image: radial-gradient(#727272, #515151,#515151);
+    top: 32px;
+    transform: translate(-50%, -50%)
+} 
+
+.double-fretMark:after{
+    content: "";
+    position: absolute;
+    height: 25%;
+    width: 40%;
+    border-radius: 50%;
+    background-image: radial-gradient(#727272, #515151,#515151);
+    top: 168px;
+    transform: translate(-50%, -50%);
+} 
+
+/* dano estilos a los nombres de cada nota segun su cuerda*/
+
+.note-name{
+    width: 30px;
+    text-align: center;
+    font-weight: 700;
+    color:white;
+    background-color:#99632D;
+}
+
+/* animacion de las cuerdas al dar click */
+
+.string:active{
+    animation-name: example;
+    animation-duration: 0.1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    0%{
+        transform: rotate(-1deg);
+    }
+    100%{
+        transform: rotate(1deg);
+    }
+}
