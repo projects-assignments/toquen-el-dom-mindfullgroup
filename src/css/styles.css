@@ -36,5 +36,41 @@ h1 {
 
 body {
     margin: 0;
-    background: #222;
+    background: var(--tertiary-color);
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	background-color: var(--primary-color);
+	padding: 16px;
+    font-weight: 600;
+}
+
+.icon_rrss {
+	display: flex;
+    justify-content: center;
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer img{
+    height: 32px;
+    padding: 8px;
+}
+
+.info_footer{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p{
+    display: flex;
+    align-items: center;
+    margin: 0;
 }
