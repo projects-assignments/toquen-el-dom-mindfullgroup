@@ -110,3 +110,16 @@ footer p{
     align-items: center;
     margin: 0;
 }
+
+.footer{
+    width: 100%;
+}
+
+iframe{
+    border-style: none;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+}

@@ -39,7 +39,7 @@ section{
     margin-top: 100px;
     margin-bottom: 100px;
     padding: 5% 5%;
-    background-image: linear-gradient(#ff9933, #3398ff);
+    background-image: linear-gradient(#ff9933, var(--accent-color),#3398ff);
     border-radius: 3rem;
 }
 h2{
