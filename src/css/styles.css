@@ -82,8 +82,8 @@ footer {
 	flex-direction: column;
 	width: 100%;
 	background-color: var(--primary-color);
-	padding: 16px;
     font-weight: 600;
+    height: 200px;
 }
 
 .icon_rrss {
