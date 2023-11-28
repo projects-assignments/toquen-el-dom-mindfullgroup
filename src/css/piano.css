@@ -1,13 +1,60 @@
+/* font-family: 'Exo 2', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Khand', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mooli', sans-serif;
+font-family: 'Titillium Web', sans-serif; */
+
+
+:root {
+    --primary-color: #ff9933;
+    --secondary-color: #3398ff;
+    --accent-color: #B326B7;
+    --text-color: #f5f5f5;
+    --background-color: #121212;
+    --font-family-primary: 'khand', sans-serif;
+    --font-family-secondary: 'Merriweather', sans-serif;
+    --font-family-tertiary: 'Montserrat', sans-serif;
+    --h1-size: 3rem;
+    --h2-size: 2.25rem;
+    --h3-size: 2rem;
+    --sub-title: 1.5rem;
+    --paragraf-size: 1rem;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+}
+
+main{
+    padding: 1rem 3rem;
+    height: auto;
+}
+
+h2{
+    font-family: var(--font-family-primary);
+    font-size: 1.5rem;
+    color: #ff9933;
+    text-align: center;
+}
+
 ul {
         height: 18.875em;
-        width: 34em;
-        margin: 20em auto;
+        width: 62em;
+        margin: 2em auto;
         padding: 3em 0 0 3em;
         position: relative;
         border: 1px solid #160801;
         border-radius: 1em;
         box-shadow: 0 0 50px rgba(0, 0, 0, 0.5) inset, 0 1px rgba(212, 152, 125, 0.2) inset, 0 5px 15px rgba(0, 0, 0, 0.5);
-        background-color: var(--secondary-color);
+        background-image: linear-gradient(var(--primary-color), var(--accent-color), var(--secondary-color), #5BFF5B )
+
     }
     li {
         margin: 0;
@@ -70,3 +117,47 @@ ul {
         border-radius: 0 5px 5px 5px;
     }
 
+    .footer{
+        width: 100%;
+    }
+    
+    iframe{
+        border-style: none;
+        height: 100%;
+    }
+
+    .img-tutorial-piano, .video-tutorial {
+        width: 40%;
+        height: auto;
+        border-radius: 20px;
+        border: var(--primary-color) 10px solid;
+    }
+
+    .tutorial-section {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: space-around;
+        height: 15%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h3 {
+        color: var(--primary-color);
+        border: 1px solid var(--primary-color);
+        width: 400px;
+        padding: 16px 30px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 4px 4px 0 rgba(255, 153, 51, 0.50);
+        font-family: var(--font-family-primary);
+    }
+
+    .tutorial-div {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        justify-content: space-evenly;
+        margin: 2%;
+    }
