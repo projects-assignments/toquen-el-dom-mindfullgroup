@@ -1,3 +1,8 @@
+/* *
+{
+    border: 1px solid;
+} */
+
 .header{
     width: 100%;
 }
@@ -39,20 +44,37 @@ h2{
     text-align: center;
 }
 
+#btn{
+    display: flex;
+    flex-direction: column;
+}
 button{
     width: 200px;
     padding: 0.5rem 2rem;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     margin: auto;
+    margin-bottom: 1rem;
+    border: none;
+    font-weight: 700;
+    box-shadow: 7px 7px 8px rgb(33, 52, 80);
 }
 
 section{
     margin-bottom: 3rem;
     display: block;
-    background-image: linear-gradient(#1212, #3398FF, #1212);
+    background-image: linear-gradient(rgb(18,18,18), rgb(51,152,255), rgb(18,18,18));
+    padding-top: 2rem;
+    background-blend-mode: lighten;
 }
 
 .footer{
     width: 100%;
 }
+
+/* @media (width < 1000px){
+    img{
+        width: 200px;
+        height: auto;
+    }
+} */
