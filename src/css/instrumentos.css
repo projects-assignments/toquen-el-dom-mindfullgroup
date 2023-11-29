@@ -12,6 +12,10 @@ iframe{
     height: 100%;
 }
 
+main{
+    background: none;
+}
+
 h1{
     color: var(--primary-color);
     font-size: var(--h1-size);
