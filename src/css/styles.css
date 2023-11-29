@@ -124,11 +124,12 @@ iframe{
     width: 100%;
     height: 100vh;
     padding: 150px 150px;
-    background-image: url(../imgs/SM_Hero_image_desktop.png);
+    background: linear-gradient(135deg,  #121212,#121212,#121212,#121212,#121212,#273c52,#121212,#121212);
+    /* background-image: url(../imgs/SM_Hero_image_desktop.png); */
+    background-image: url(../imgs/heroImg.png);
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
-    box-shadow: 0 0 20px rgba(94, 79, 79, 0.5);
 }
 
 h1 {
@@ -150,10 +151,17 @@ h1 {
 }
 
 main {
-    background-color: linear-gradient(to bottom right, #121212, #2d3d4e, #121212)
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(180deg,  #3a76b7,#121212,#121212,#121212,#121212);
 }
 
 .musicians-section {
+    width: 80%;
+    padding: 15%;
     color: azure;
     display: flex;
     flex-direction: row;
@@ -162,16 +170,72 @@ main {
 }
 
 .musician-card {
-    width: 10%;
+    width: 20%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: var(--font-family-primary);
+
 }
 
 .musician-card img {
     width: 120px;
     border-radius: 200px;
+}
 
+.musician-card h3, .musician-card h4, .musician-card p {
+    margin: 0;
+}
+
+.display-instruments {
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 150px 0;
+}
+
+.display-instruments button{
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: var(--primary-color);
+    box-shadow: 0 4px 4px 0 rgba(255, 153, 51, 0.50);
+
+}
+
+.instrument-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 704px;
+    height: 640px;
+    background: linear-gradient(180deg, #121212, #3a76b7,#121212);
+}
+
+.instrument-card img{
+    width: 380px;
+    height: 253px;
+}
+main h2 {
+    color: var(--primary-color);
+    font-family: var(--font-family-primary);
+    font-size: var(--h1-size);
+    margin: 0;
+}
+
+main h4 {
+    color: var(--secondary-color);
+    font-family: var(--font-family-secondary);
+    font-size: var(--paragraf-size);
+    padding: 0;
+}
+
+.display-instruments h3, h2 {
+    color: var(--primary-color);
+    font-family: var(--font-family-primary);
+    font-size: var(--h2-size);
 }
