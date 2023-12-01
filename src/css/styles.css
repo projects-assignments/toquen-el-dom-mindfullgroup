@@ -1,4 +1,5 @@
 /*  LOS ESTILOS DE styles.css SE APLICAN DE MANERA GLOBAL EN TODAS LAS PAGES    */
+@import "./base.css";
 
 :root {
     --primary-color: #ff9933;
@@ -12,166 +13,19 @@
     --h1-size: 3rem;
     --h2-size: 2.25rem;
     --h3-size: 2rem;
+    --h4-size:
     --sub-title: 1.5rem;
     --paragraf-size: 1rem;
 }
 
-/* Ejemplos de cómo utilizar las clases globales 
-body {
-    font-family: var(--font-family-tertiary);
-    font-size: var(--paragraf-size);
-    color: var(--primary-color)
-} 
-h1 {
-    font-family: var(--font-family-primary);
-    font-size: var(--h1-size);
-}  */
-
 * {
     box-sizing: border-box;
-}
-
-body {
     margin: 0;
-    background: var(--background-color);
-    font-family: 'Montserrat', sans-serif;
+    padding: 0;
 }
 
-.logo img{
-    height: 120px;
-}
-
-nav li {
-	padding: 0 16px;
-}
-
-nav ul {
-	list-style: none;
-	display: flex;
-	justify-content: space-between;
-}
-
-header > div {
-	margin: 0 30px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-header a {
-	text-decoration: none;
-    font-family: var(--font-family-primary);
-    font-size: var(--h2-size);
-    color: var(--text-color);
-}
-
-header a:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--secondary-color);
-    text-decoration-thickness: 4px;
-}
-
-footer {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	width: 100%;
-	background-color: var(--primary-color);
-	height: 200px;
-    font-weight: 600;
-}
-
-.icon_rrss {
-	display: flex;
-    justify-content: center;
-	list-style-type: none;
+body{
     padding: 0;
     margin: 0;
-}
-
-footer img{
-    height: 32px;
-    padding: 8px;
-}
-
-.info_footer{
-	display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer p{
-    display: flex;
-    align-items: center;
-    margin: 0;
-}
-
-.footer{
-    width: 100%;
-}
-
-iframe{
-    border-style: none;
-    height: 100%;
-}
-
-.header{
-    width: 100%;
-}
-
-/* HOME */
-.hero-section {
-    width: 100%;
-    height: 100vh;
-    padding: 150px 150px;
-    background-image: url(../imgs/SM_Hero_image_desktop.png);
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 20px rgba(94, 79, 79, 0.5);
-}
-
-h1 {
-    font-family: var(--font-family-primary);
-    color: var(--text-color);
-    font-size: var(--h2-size);
-}
-
-.for-everyone-text {
-    font-family: var(--font-family-secondary);
-    color: var(--primary-color);
-    font-size: var(--subtitle-size);
-}
-
-.more-information-text {
-    font-family: var(--font-family-secondary);
-    color: var(--accent-color);
-    font-size: var(--subtitle-size);
-}
-
-main {
-    background-color: linear-gradient(to bottom right, #121212, #2d3d4e, #121212)
-}
-
-.musicians-section {
-    color: azure;
-    display: flex;
-    flex-direction: row;
-    gap: 120px;
-    justify-content: center;
-}
-
-.musician-card {
-    width: 10%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.musician-card img {
-    width: 120px;
-    border-radius: 200px;
-
+    background-color: #121212;
 }
