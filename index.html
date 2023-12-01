@@ -14,12 +14,20 @@
 </head>
 
 <body>
-    <!-- aqui va el header -->
-
     <header>
-        <iframe src="/pages/header.html" class="header"></iframe>
+        <div>
+            <div class="logo">
+                <img src="/src/imgs/SM_Logo_sin_fondo.png" alt="">
+            </div>
+            <nav>
+                <ul class="navBar">
+                    <li class="navLink"><a href="../index.html"> Home</a></li>
+                    <li class="navLink"><a href="./src/pages/instrumentos.html"> Instruments </a></li>
+                    <li class="navLink"><a href="./src/pages/aboutUs.html"> About us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-
 
     <section class="hero-section">
         <h1>Unlock your musical creativity and <br>have fun while doing it.!!</h1>
@@ -29,27 +37,26 @@
         <p class="more-information-text">MORE INFORMATION</p>
     </section>
 
-
     <main>
 
         <section class="musicians-section">
             <article class="musician-card">
                 <img src="./src/imgs/Vector.png" alt="">
-                <h3>Ana María</h3>
+                <h3 class="nameMusician">Ana María</h3>
                 <p>Coordinación artística YMS</p>
-                <h4>ESP / ENG / JPN</h4>
+                <p>ESP / ENG / JPN</p>
             </article>
             <article class="musician-card">
                 <img src="./src/imgs/Mava.png" alt="Foto de Mava">
-                <h3>MAVA</h3>
+                <h3 class="nameMusician">MAVA</h3>
                 <p>Piano & Event Planner</p>
-                <h4>ESP | ENG</h4>
+                <p>ESP | ENG</p>
             </article>
             <article class="musician-card">
-                <img src="./src/imgs/Vector.png" alt="">
-                <h3>KARYOLI</h3>
+                <img src="./src/imgs/Karyoli.png" alt="">
+                <h3 class="nameMusician">KARYOLI</h3>
                 <p>Bass & Improvisation</p>
-                <h4>ESP / ENG / ITA</h4>
+                <p>ESP / ENG / ITA</p>
             </article>
         </section>
 
@@ -59,35 +66,33 @@
         <section class="display-instruments">
             <article class="instrument-card">
                 <h3>Virtual Piano</h3>
-                <img src="./src/imgs/piano-home.png" alt="">
+                <img src="./src/imgs/img_piano.png" alt="">
                 <a href="./pages/piano.html"><button>Play</button></a>
             </article>
             <article class="instrument-card">
                 <h3>Virtual Bass</h3>
-                <img src="./src/imgs/bass-home.png" alt="">
+                <img src="./src/imgs/img_bass.png" alt="">
                 <a href="./pages/bajo.html"><button>Play</button></a>
             </article>
         </section>
 
     </main>
 
-
-    <!-- aqui va el main -->
-
-
-
-
-
-
-
-    <!-- aqui va el footer -->
     <footer>
-        <iframe src="/pages/footer.html" class="footer"></iframe>
+        <div class="info_footer">
+        <p>
+            Monday to Friday 10h00 a 20h00
+        </p>
+        <p> <img src="/src/imgs/SM_email_.png" alt="">info@onlineMusic.com</p>
+        <p> <img src="/src/imgs/SM_Whatsapp_icon.png" alt="">+34 628111222</p>
+        </div>
+            <ul class="icon_rrss">
+                <li><a href=""><img src="/src/imgs/SM_Fb_icon.png" alt=""></a></li>
+                <li><a href=""><img src="/src/imgs/SM_Instagram_icon.png" alt=""></a></li>
+                <li><a href=""><img src="/src/imgs/SM_X_icon.png" alt=""></a></li>
+                <li><a href=""><img src="/src/imgs/SM_youtube_icon.png" alt=""></a></li>
+            </ul>
     </footer>
-
-
-
-
 
     <script src="./index.js"></script>
 </body>

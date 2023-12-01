@@ -1,16 +1,27 @@
+/* *{
+    border: 1px solid red;
+}   */
 
+<<<<<<< HEAD
 @import url(styles.css);
 
 
 body{
     padding: 0;
     margin: 0;
+=======
+.main{
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+>>>>>>> b1afb31c75394d3025d16f82322d84f236825812
 }
 
-.header{
-    width: 100%;
-}
+.notas{
+    width: 400px;
 
+<<<<<<< HEAD
 .main-about{
     padding: 1rem 3rem;
     background-color: var(--background-color);
@@ -26,21 +37,31 @@ h2{
 .h1-about {
     color: green;
 }
+=======
+}
+>>>>>>> b1afb31c75394d3025d16f82322d84f236825812
 .about{
     font-family: var(--font-family-primary);
     font-size: var(--paragraf-size);
     color: white;
+    padding: 2rem 0;
+    font-weight: 400;
+    margin: 0 200px;
 }
+
 p{
     font-family: var(--font-family-primary);
     font-size: var(--paragraf-size)
 }
 
-section{
-    padding: 0rem 3rem;
+.musician img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-right: 50px;
 }
 
-.musician1, .musician2, .musician3{
+.musician{
     width: 100%;
     margin: auto;
     margin-top: 100px;
@@ -48,21 +69,22 @@ section{
     padding: 5% 5%;
     background-image: linear-gradient(#ff9933, var(--accent-color),#3398ff);
     border-radius: 3rem;
+    display: flex;
 }
+
 h2{
+    color: var(--primary-color);
     font-family: var(--font-family-primary);
-    font-size: 1.5rem;
+    font-size: var(--h2-size);
+    text-align: center;
 }
+
 h3{
     font-family: var(--font-family-primary);
-    font-size: 1rem;
+    font-size: var(--h3-size);
+    color: black;
 }
 
-.footer{
-    width: 100%;
-}
-
-iframe{
-    border-style: none;
-    height: 100%;
+.musicianContainer{
+    margin: 0 270px;
 }
