@@ -1,16 +1,25 @@
 /* *{
     border: 1px solid red;
-}  */
+}   */
 
 .main{
     padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.notas{
+    width: 400px;
+
+}
 .about{
     font-family: var(--font-family-primary);
     font-size: var(--paragraf-size);
     color: white;
     padding: 2rem 0;
+    font-weight: 400;
+    margin: 0 200px;
 }
 
 p{
@@ -26,7 +35,7 @@ p{
 }
 
 .musician{
-    width: 1400px;
+    width: 100%;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -49,3 +58,6 @@ h3{
     color: black;
 }
 
+.musicianContainer{
+    margin: 0 270px;
+}

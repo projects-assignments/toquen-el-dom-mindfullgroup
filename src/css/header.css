@@ -1,5 +1,5 @@
-
-/* * {
+/* 
+* {
     box-sizing: border-box;
     border: 1px solid red;
     margin: 0;
@@ -42,4 +42,55 @@ header a:hover {
     text-decoration: underline;
     text-decoration-color: var(--secondary-color);
     text-decoration-thickness: 4px;
+}
+
+.burgerMenu{
+    background-color: #121212;
+    border: none;
+    font-size: 4rem;
+}
+
+#burgerMenu, .cerrar{
+    /* border-style: none; */
+    /* display: none; */
+    color: white;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+}
+
+/* .cerrar{
+    display: none;
+} */
+
+@media (width<800px){
+    /* nav{
+        display: none;
+    }
+    #burgerMenu, .cerrar{
+        display: block;
+    } */
+
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        /* align-items: end; */
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        align-items: start;
+        gap: 3rem;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(65, 65, 65, 0.5);
+    }
+
+    .navBar{
+        flex-direction: column;
+    }
+
+
 }
