@@ -1,4 +1,7 @@
 
+@import url(styles.css);
+
+
 body{
     padding: 0;
     margin: 0;
@@ -8,17 +11,21 @@ body{
     width: 100%;
 }
 
-main{
+.main-about{
     padding: 1rem 3rem;
+    background-color: var(--background-color);
 }
 
-h1{
+
+h2{
     font-family: var(--font-family-primary);
-    font-size: var(--h2-size);
+    font-size: var(--h1-size);
     color: #ff9933;
     text-align: center;
 }
-
+.h1-about {
+    color: green;
+}
 .about{
     font-family: var(--font-family-primary);
     font-size: var(--paragraf-size);
