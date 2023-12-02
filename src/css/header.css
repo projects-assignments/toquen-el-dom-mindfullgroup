@@ -1,9 +1,3 @@
-/* 
-* {
-    box-sizing: border-box;
-    border: 1px solid red;
-    margin: 0;
-} */
 
 header{
     background: var(--background-color);
@@ -44,53 +38,63 @@ header a:hover {
     text-decoration-thickness: 4px;
 }
 
-.burgerMenu{
+.menuIcon, .closeIcon{
     background-color: #121212;
-    border: none;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
-#burgerMenu, .cerrar{
-    /* border-style: none; */
-    /* display: none; */
+.openBtn, .closeBtn{
+    display: none;
     color: white;
     padding: 0;
+    border: none;
 }
 
 nav{
     display: flex;
-}
+} 
 
-/* .cerrar{
-    display: none;
-} */
+@media (width<430px){
 
-@media (width<800px){
-    /* nav{
-        display: none;
-    }
-    #burgerMenu, .cerrar{
+    .openBtn, .closeBtn{
         display: block;
-    } */
-
+    }
 
     nav{
+        opacity: 0;
+        visibility: hidden;
         display: flex;
         flex-direction: column;
-        /* align-items: end; */
+        align-items: center;
         position: absolute;
         top: 0;
         right: 0;
         bottom: 0;
-        align-items: start;
-        gap: 3rem;
+        gap: 1rem;
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(65, 65, 65, 0.5);
+    }
+
+    .logo img{
+        height: 80px;
+    }
+
+    .closeIcon, header a{
+        font-size: 1.5rem;
     }
 
     .navBar{
         flex-direction: column;
     }
 
+    nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .openBtn.hidden{
+        opacity: 0;
+        visibility: hidden;
+    }
 
 }
