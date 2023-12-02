@@ -73,10 +73,11 @@ nav{
         gap: 1rem;
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(65, 65, 65, 0.5);
+        background-color: #121212;
     }
 
     .logo img{
-        height: 80px;
+        height: 55px;
     }
 
     .closeIcon, header a{
