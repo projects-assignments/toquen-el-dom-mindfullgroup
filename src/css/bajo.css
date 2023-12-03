@@ -43,6 +43,28 @@
     top:22px;
 }
 
+.MI:before{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(#eee, #727272);
+    box-shadow: 0px 3px 10px #806233;
+    z-index: 1;
+    position: absolute;
+    top:22px;
+}
+
+.LA:before{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(#eee, #727272);
+    box-shadow: 0px 3px 10px #806233;
+    z-index: 1;
+    position: absolute;
+    top:22px;
+}
+
 /* dando estilos a cada contenedor de notas. 22 contenedores a lo largo de cada cuerda. lineas verticales*/
 
 .note-fret{
@@ -75,7 +97,7 @@
     width: 40%;
     border-radius: 50%;
     background-image: radial-gradient(#727272, #515151,#515151);
-    top: 100px;
+    top: 10px;
     transform: translate(0, -50%)
 } 
 
@@ -97,7 +119,7 @@
     width: 40%;
     border-radius: 50%;
     background-image: radial-gradient(#727272, #515151,#515151);
-    top: 168px;
+    top: -40px;
     transform: translate(-50%, -50%);
 } 
 
