@@ -18,14 +18,28 @@
     <!-- aqui va el header -->
 
     <header>
-        <iframe src="header.html" class="header"></iframe>
+        <div>
+            <div class="logo">
+                <img src="/src/imgs/SM_Logo_sin_fondo.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#"> Home</a></li>
+                    <li><a href="#"> Instruments </a></li>
+                    <li><a href="#"> About us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <!-- aqui va el main -->
 
     <h2>Virtual Bass</h2>
 
+
     <div class="bass_container">
+
+        <div class="box_color">
 
         <div class="fretboard">
 
@@ -138,14 +152,40 @@
                 <div onclick=" jsNota(130.8128)" class="note-fret"></div>
                 <div onclick=" jsNota(138.5913)" class="note-fret"></div>
             </div>
-
-
         </div>
     </div>
+    </div>
+
+    <section class="tutorial-section">
+        <h3>Try another instrument</h3>
+
+        <p class="instructions">Utiliza el teclado de tu ordenador o haz click en los trastes. Con las teclas a, w, s, e, d, r, f, g, y, h, u, j podras tocas una octava en la cuerda de LA. 
+            cuerdas del bajo...</p>
+
+        <div class="tutorial-div">
+            <img class="img-tutorial-piano" src="../src/imgs/tutorial.jpg" alt="">
+            <iframe class="video-tutorial" width="320" height="320" src="https://www.youtube.com/embed/etncP1nfycw?si=cccjdfafXmaXTaEI"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </section>
 
     <!-- aqui va el footer -->
     <footer>
-        <iframe src="footer.html" class="footer"></iframe>
+        <div class="info_footer">
+        <p class="schedule">
+            Monday to Friday 10h00 a 20h00
+        </p>
+        <p> <img src="/src/imgs/SM_email_.png" alt="">info@onlineMusic.com</p>
+        <p> <img src="/src/imgs/SM_Whatsapp_icon.png" alt="">+34 628111222</p>
+        </div>
+            <ul class="icon_rrss">
+                <li><a href=""><img src="/src/imgs/SM_Fb_icon.png" alt=""></a></li>
+                <li><a href=""><img src="/src/imgs/SM_Instagram_icon.png" alt=""></a></li>
+                <li><a href=""><img src="/src/imgs/SM_X_icon.png" alt=""></a></li>
+                <li><a href=""><img src="/src/imgs/SM_youtube_icon.png" alt=""></a></li>
+            </ul>
     </footer>
 
     <script src="/src/javascript/bajo.js"></script>
