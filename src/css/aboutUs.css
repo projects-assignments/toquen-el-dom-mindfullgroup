@@ -54,7 +54,7 @@
 
 @media (width<700px){
     .main, .musicianContainer{
-        padding: 1rem;
+        padding: 1.5rem;
     }
 
     .notas{
@@ -67,7 +67,6 @@
 
     .textAbout, .textBio{
         width: 100%;
-        font-size: 0.75rem;
     }
 
     .musicianCard img{
@@ -83,16 +82,17 @@
         align-items: center;
         padding: 1rem;
         margin-bottom: 2rem;
+        border-radius: 2rem;
     }
 
     .musicianName{
-        font-size: var(--paragraf-size);
+        font-size: 1.5rem;
     }
 }
 
-@media (600px < width < 1100px){
+@media (700px < width < 1100px){
     .main, .musicianContainer{
-        padding: 1rem 2rem 3rem;
+        padding: 1rem 3rem 3rem;
     }
 
     .main, .musicianContainer{
@@ -108,11 +108,6 @@
     }
     .musicianName{
         font-size: 1.5rem;
-    }
-
-    .textAbout, .textBio{
-        /* width: 100%; */
-        font-size: 0.9rem;
     }
 
     .musicianCard img{
