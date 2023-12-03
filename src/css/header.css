@@ -54,7 +54,7 @@ nav{
     display: flex;
 } 
 
-@media (width<430px){
+@media (width<800px){
 
     .openBtn, .closeBtn{
         display: block;
