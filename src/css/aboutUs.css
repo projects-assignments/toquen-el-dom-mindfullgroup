@@ -1,6 +1,4 @@
-*{
-    border: 1px solid red;
-}
+
 .main, .musicianContainer{
     padding: 1rem 0 4rem 0;
     display: flex;
