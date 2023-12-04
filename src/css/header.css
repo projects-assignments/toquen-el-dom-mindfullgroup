@@ -2,6 +2,10 @@
 header{
     background: var(--background-color);
     font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    
 }
 
 .logo img{
