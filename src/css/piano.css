@@ -1,17 +1,32 @@
-main{
-    padding: 1rem 3rem;
+.mainpiano {
+    padding: 12rem 3rem 1rem 3rem;
     height: auto;
+    background: linear-gradient(
+        180deg,
+        #121212,
+        #121212,
+        #121212,
+        #3a76b74e,
+        #3a76b74e,
+        #3a76b74e,
+        #121212,
+        #121212);
+}
+
+.set-mobile {
+    display: none;
 }
 
 h2{
     font-family: var(--font-family-primary);
     font-size: 1.5rem;
     color: #ff9933;
-    color: #5BFF5B;
     text-align: center;
+    line-height: 0;
 }
 
 .set {
+        display: flex;
         height: 18.875em;
         width: 62em;
         margin: 2em auto;
@@ -101,15 +116,16 @@ h2{
         align-items: center;
     }
 
-    h5 {
+    .tutorial-section a {
         color: var(--primary-color);
         border: 1px solid var(--primary-color);
         width: 400px;
         padding: 16px 30px;
         border-radius: 10px;
+        text-decoration: none;
         text-align: center;
         box-shadow: 0 4px 4px 0 rgba(255, 153, 51, 0.50);
-        font-family: var(--font-family-primary);
+        font-family: var(--font-family-tertiary);
     }
 
     .tutorial-div {
@@ -119,3 +135,27 @@ h2{
         justify-content: space-evenly;
         margin: 2%;
     }
+
+    @media screen and (max-width: 800px) {
+        .set {
+        display: none;
+    }
+    .set-mobile {
+        display: flex;
+        height: 18.875em;
+        width: 34em;
+        margin: 2em auto;
+        padding: 3em 0 0 3em;
+        position: relative;
+        border: 1px solid #160801;
+        border-radius: 1em;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.5) inset, 0 1px rgba(212, 152, 125, 0.2) inset, 0 5px 15px rgba(0, 0, 0, 0.5);
+        background-image: linear-gradient(var(--primary-color), var(--accent-color), var(--secondary-color), #5BFF5B )
+
+    }
+
+    .tutorial-div {
+        width: 90%;
+    }
+
+}
