@@ -1,3 +1,9 @@
+/* 
+* {
+    box-sizing: border-box;
+    border: 1px solid red;
+    margin: 0;
+} */
 
 header{
     background: var(--background-color);
@@ -74,6 +80,7 @@ nav{
     .openBtn, .closeBtn{
         display: block;
     }
+
 
     nav{
         opacity: 0;

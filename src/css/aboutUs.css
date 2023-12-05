@@ -1,6 +1,8 @@
 
 .main, .musicianContainer{
     padding: 1rem 0 4rem 0;
+.main, .musicianContainer{
+    padding: 1rem 0 4rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +15,10 @@
 
 .notas{
     width: 17rem;
+    width: 17rem;
 }
+
+.titleAbout{
 
 .titleAbout{
     font-family: var(--font-family-primary);
@@ -25,17 +30,33 @@
 .textAbout{
     width: 54rem;
     font-family: var(--font-family-tertiary);
+    font-size: var(--h1-size);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.textAbout{
+    width: 54rem;
+    font-family: var(--font-family-tertiary);
     font-size: var(--paragraf-size);
     color: white;
     padding: 1rem 0;
+    padding: 1rem 0;
 }
 
+.musicianCard img{
+    width: 10rem;
 .musicianCard img{
     width: 10rem;
     border-radius: 100px;
     margin-right: 50px;
 }
 
+.musicianCard{
+    width: 54rem;
+    margin-bottom: 5rem;
+    padding: 3rem;
+    background-image: linear-gradient(var(--primary-color), var(--accent-color),var(--secondary-color));
 .musicianCard{
     width: 54rem;
     margin-bottom: 5rem;

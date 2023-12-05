@@ -1,7 +1,14 @@
 
+
 .titleInstruments, .instrumentsBox{
     margin: 0;
     padding: 0;
+}
+
+.schoolTitle{
+    color: var(--primary-color);
+    font-size: var(--h1-size);
+    text-align: center;
 }
 
 .titleInstruments {
@@ -23,10 +30,42 @@
     text-align: center;
 }
 
+
 .instrumentName{
     color: var(--primary-color);
     font-size: var(--h2-size);
     text-align: center;
+}
+
+.instrumentsBox{
+    background-image: linear-gradient(rgb(18,18,18), #273c52, rgb(18,18,18));
+    /* padding: 5rem 10rem; */
+    margin-bottom: 2rem;
+}
+
+.contenedor{
+    width: 60rem;
+    margin: auto;
+    padding: 5rem 0;
+}
+
+.instrumentImg{
+    width: 25rem;
+    height: auto;
+}
+
+.descriptionBox{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    margin-top: 2rem;
+}
+
+.textDescription{
+    margin: 0 0 1rem 2rem;
+    color: white;
+    font-family: var(--font-family-tertiary);
+    font-size: var(--paragraf-size);
 }
 
 .instrumentsBox{
@@ -68,10 +107,12 @@
 
 .playButton{
     width: 10rem;
+    width: 10rem;
     padding: 0.5rem 2rem;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     font-weight: 700;
+    font-size: var(--paragraf-size);
     font-size: var(--paragraf-size);
     box-shadow: 2px 2px 8px var(--primary-color);
 }
