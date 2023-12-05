@@ -1,6 +1,26 @@
 # Toquen el DOM
-
-## Descripción
+## Descripción:
+Se ha creado una web para una escuela de música online para niños basado en un flat design con colores en tonos amarillos, azul y morado. Partiendo de alli se logra un diseño colorido y divertido orientado a niños como usuarios objetivo.
+Se escogieron dos instrumentos principales a desarrollar, los cuales pueden tocarse con el teclado o con el mouse, mientras reproducen sonido y animación simultáneamente.
+En el diseño y maquetacion se tomó en cuenta la adaptabilidad a diferentes dispositivos para lograr asi una mejor experiencia de usuario.
+Todo esto gracias al uso de media queries, animaciones css y javascript.
+## Link de la web
+<-- aqui poner el Link de github pages-->
+## Demo (Figma)
+- [Demo versión móvil](https://www.figma.com/proto/CpjirNHi8OaHztAN13ywl1?node-id=0%3A1)
+- [Demo versión Desktop](https://www.figma.com/proto/CpjirNHi8OaHztAN13ywl1?node-id=1%3A2)
+## Herramientas utilizadas
+- Figma
+- Jira
+- Slack
+- Github
+- Visual Studio Code
+## Cómo instalar el proyecto en el ordenador (local)
+<-- esta parte no estoy segura de que trata -->
+## Desarrollado por:
+- Ana Maria **Product Owner**
+- Karyoli  **Scrum Master**
+- Mava **Developer** (editado) 
 
 Trabajaremos en crear una web para  una escuela de música online, con el plus de que los usuarios van a poder practicar con algunos de los instrumentos porque estos van a reproducir sonidos con click o con pulsaciones de teclado. La Escuela de música quiere ver las ofertas de diferentes grupos de desarrolladores para ver con cuál decide quedarse.
 
